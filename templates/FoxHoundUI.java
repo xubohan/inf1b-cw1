@@ -21,7 +21,35 @@ public class FoxHoundUI {
     public static final int MENU_EXIT = 2;
 
     public static void displayBoard(String[] players, int dimension) {
-        // TODO implement me
+        for (String show:players) {
+            System.out.println(show);
+        }
+    }
+
+    public static void displayBoardFancy(String[] players, int dim) {
+
+        String space = "";
+        if(dim > 9) space = "   ";
+        else space = "  ";
+
+        String str = "";
+        for (int i = 0; i < dim; i++) str += "|===";
+        str += "|";
+        char dot = '.';
+        char H = 'H';
+        char F = 'F';
+        int saveValue = space.length();
+        for (int i = 2; i <2+dim; i++) {
+            System.out.println(space + str + space);
+            String[] sb = players[i].trim().split(" ");
+            for (String a: sb) {
+                System.out.println(a);
+            }
+//           for (int j = saveValue-1; j <dim + saveValue; j++) {
+//
+//           }
+            System.out.println(sb);
+        }
 
     }
 

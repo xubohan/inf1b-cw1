@@ -86,17 +86,12 @@ public class FoxHoundGame {
      * board dimensions.
      */
     public static void main(String[] args) {
-//        Test codes:
-//        FoxHoundUtils fh = new FoxHoundUtils();
-//        String[] a = fh.initialisePositions(5);
-//        for (String b:a) {
-//            System.out.println(b);
-//        }
 
         int dimension = FoxHoundUtils.DEFAULT_DIM;
         String[] players = FoxHoundUtils.initialisePositions(dimension);
         gameLoop(dimension, players);
 
+        FoxHoundUI.displayBoardFancy(players,9);
         // Close the scanner reading the standard input stream
         STDIN_SCAN.close();
     }

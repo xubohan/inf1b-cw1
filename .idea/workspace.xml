@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="16fbb23d-4f8e-40df-ab80-1720c3e67b3c" name="Default Changelist" comment="" />
+    <list default="true" id="16fbb23d-4f8e-40df-ab80-1720c3e67b3c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/FoxHoundGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/FoxHoundGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/templates/FoxHoundGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/FoxHoundUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/FoxHoundUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/templates/FoxHoundUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/FoxHoundUtils.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,16 +28,22 @@
     <option name="OPEN_IN_BROWSER" value="true" />
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1X81d3FujKLXV0dEG5fGJmA7vxV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -34,6 +53,10 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
   <component name="RunManager">
     <configuration name="FoxHoundGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -59,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580412991512</updated>
-      <workItem from="1580412993091" duration="12827000" />
+      <workItem from="1580412993091" duration="26900000" />
     </task>
     <servers />
   </component>
@@ -75,25 +98,61 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="569" y="346" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900@0.0.1440.900" timestamp="1580506914493" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1580579202648">
+    <state x="463" y="189" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1580650593241">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580579202648" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1580579202647">
+    <state x="463" y="189" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1580650593241" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1580728165001">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580579202647" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1580579202646">
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580728165001" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1580728164999">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580579202646" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1580579202647">
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580728164999" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1580728164998">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580579202647" />
-    <state x="483" y="301" key="cloudConfig.SelfSettingsDialog" timestamp="1580578784031">
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580728164998" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1580728165000">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="483" y="301" key="cloudConfig.SelfSettingsDialog/0.0.1440.900@0.0.1440.900" timestamp="1580578784031" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580728165000" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1580728165003">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580728165003" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1580728165002">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1580728165002" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1580728165001">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1580728165001" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1580728165003">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1580728165003" />
+    <state x="208" y="31" key="SettingsEditor" timestamp="1580653620414">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="31" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1580653620414" />
+    <state x="483" y="301" key="cloudConfig.SelfSettingsDialog" timestamp="1580652406454">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="483" y="301" key="cloudConfig.SelfSettingsDialog/0.0.1440.900@0.0.1440.900" timestamp="1580652406454" />
+    <state x="265" y="193" width="909" height="553" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1580728252056">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="265" y="193" width="909" height="553" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1580728252056" />
+    <state x="97" y="72" key="new project wizard" timestamp="1580728315324">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="97" y="72" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1580728315324" />
+    <state x="320" y="106" key="scopes" timestamp="1580650374333">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="106" key="scopes/0.0.1440.900@0.0.1440.900" timestamp="1580650374333" />
   </component>
 </project>
