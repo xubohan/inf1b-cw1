@@ -6,14 +6,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16fbb23d-4f8e-40df-ab80-1720c3e67b3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inf1b-cw1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inf1b-cw1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/FoxHoundGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/FoxHoundGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/templates/FoxHoundGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/FoxHoundGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/templates/FoxHoundGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/FoxHoundUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/FoxHoundIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/templates/FoxHoundIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/FoxHoundUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/templates/FoxHoundUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/FoxHoundUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/templates/FoxHoundUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/FoxHoundUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/FoxHoundUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/templates/FoxHoundUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/FoxHoundUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/templates/FoxHoundUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -53,10 +59,15 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="FoxHoundGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -83,6 +94,11 @@
       <option name="presentableId" value="Default" />
       <updated>1580412991512</updated>
       <workItem from="1580412993091" duration="26900000" />
+      <workItem from="1581263495629" duration="207000" />
+      <workItem from="1581263724475" duration="139000" />
+      <workItem from="1581263927350" duration="88000" />
+      <workItem from="1581264036089" duration="297000" />
+      <workItem from="1581264537522" duration="39000" />
     </task>
     <servers />
   </component>
@@ -134,14 +150,27 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1580728165003" />
-    <state x="208" y="31" key="SettingsEditor" timestamp="1580653620414">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="370" y="69" key="SettingsEditor" timestamp="1581264574948">
+      <screen x="0" y="23" width="2560" height="1336" />
     </state>
     <state x="208" y="31" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1580653620414" />
+    <state x="370" y="69" key="SettingsEditor/0.23.2560.1336@0.23.2560.1336" timestamp="1581264574948" />
     <state x="483" y="301" key="cloudConfig.SelfSettingsDialog" timestamp="1580652406454">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="483" y="301" key="cloudConfig.SelfSettingsDialog/0.0.1440.900@0.0.1440.900" timestamp="1580652406454" />
+    <state x="1395" y="523" key="com.intellij.ide.util.TipDialog" timestamp="1581264038399">
+      <screen x="0" y="23" width="2560" height="1336" />
+    </state>
+    <state x="1395" y="523" key="com.intellij.ide.util.TipDialog/0.23.2560.1336@0.23.2560.1336" timestamp="1581264038399" />
+    <state x="1429" y="592" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581264255656">
+      <screen x="0" y="23" width="2560" height="1336" />
+    </state>
+    <state x="1429" y="592" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.2560.1336@0.23.2560.1336" timestamp="1581264255656" />
+    <state x="1507" y="615" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581264168321">
+      <screen x="0" y="23" width="2560" height="1336" />
+    </state>
+    <state x="1507" y="615" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1336@0.23.2560.1336" timestamp="1581264168321" />
     <state x="265" y="193" width="909" height="553" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1580728252056">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -150,6 +179,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="97" y="72" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1580728315324" />
+    <state x="1367" y="325" key="run.anything.popup" timestamp="1581264194276">
+      <screen x="0" y="23" width="2560" height="1336" />
+    </state>
+    <state x="1367" y="325" key="run.anything.popup/0.23.2560.1336@0.23.2560.1336" timestamp="1581264194276" />
     <state x="320" y="106" key="scopes" timestamp="1580650374333">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
