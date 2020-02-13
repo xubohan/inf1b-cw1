@@ -1,14 +1,12 @@
 import java.io.*;
 import java.nio.file.Path;
-
 /**
  * A utility class for the fox hound program.
- * 
+ *
  * It contains helper functions for all file input / output
  * related operations such as saving and loading a game.
  */
 public class FoxHoundIO {
-
     public static boolean saveGame (String[] players, char turn, Path name) {
         if (players.length != 5) throw new IllegalArgumentException();
         if (name == null) throw new NullPointerException();
@@ -32,7 +30,6 @@ public class FoxHoundIO {
         }
         return true;
     }
-
     public static char loadGame(String[] players, Path input) {
         if (input == null) throw new NullPointerException();
         if (players.length !=5) throw new IllegalArgumentException();
@@ -75,10 +72,10 @@ public class FoxHoundIO {
             players[i-1] = elem[i];
         }
         if (elem[0].charAt(0) == 'F' || elem[0].charAt(0) == 'H') {
-
             return elem[0].charAt(0);
         }
         return '#';
     }
-
 }
+
+

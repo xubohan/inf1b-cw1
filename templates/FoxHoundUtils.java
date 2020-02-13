@@ -99,29 +99,29 @@ public class FoxHoundUtils {
 
     public static boolean isValidMove(int dimension, String[] players,
                                       char figure, String origin, String destination) {
-//        if (dimension < 4 || dimension >26 || players == null)
-//            System.err.print("ERROR: Invalid move. Try again!");
-        if (Arrays.asList(players).contains(destination)) return false;
+        if (dimension < 4 || dimension >26 || players == null)
+            System.err.print("ERROR: Invalid move. Try again!");
+        if (isContains(players,destination)) return false;
         boolean val = false;
         String[] hound = new String[players.length-1];
         for (int i = 0; i < players.length-1;i++) hound[i] = players[i];
-        if (figure == 'H')
+        if (figure == 'H') {
             // Determine the correctness of origin
-            if (Arrays.asList(hound).contains(origin))
+            if (isContains(hound,origin)) {
                 // Predict hounds move
-                if (Arrays.asList(houndMoves(origin,dimension)).contains(destination))
+                if (isContains(houndMoves(origin, dimension),destination))
                     val = true;
                 else return false;
-            else return false;
-        else if (figure == 'F')
+            } else return false;
+        } else if (figure == 'F') {
             // Determine the correctness of origin
-            if (players[players.length-1].equals(origin))
+            if (players[players.length - 1].equals(origin)) {
                 // Predict fox move
-                if (Arrays.asList(foxMoves(origin,dimension)).contains(destination))
+                if (isContains(foxMoves(origin, dimension),destination))
                     val = true;
                 else return false;
-            else return false;
-        else System.err.print("ERROR: Invalid move. Try again!");
+            } else return false;
+        } else System.err.print("ERROR: Invalid move. Try again!");
         return val;
     }
 
@@ -139,7 +139,7 @@ public class FoxHoundUtils {
         } else return false;
 //        int[] hounds = new int[FoxHoundGame.playersRec.length-1];
 //        for (int i = 0; i < FoxHoundGame.playersRec.length-1; i++) {
-//            hounds [i] = Integer.parseInt(FoxHoundGame.playersRec[i].replaceAll("[A-Z]",""));
+//            hounds [i] = Integer.parseInt(FoxHoundGame.substring(1));
 //        }
 //        for (int temp : hounds) {
 //            if (fox > temp) return false;
@@ -193,6 +193,12 @@ public class FoxHoundUtils {
         return stepPos;
     }
 
+    public static boolean isContains(String[] positions, String destination) {
+        for (String temp : positions) {
+            if (temp.equals(destination)) return true;
+        }
+        return false;
+    }
 
 
 

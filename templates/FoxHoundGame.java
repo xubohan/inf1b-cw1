@@ -87,22 +87,17 @@ public class FoxHoundGame {
                     turn = swapPlayers(turn);
                     break;
                 case FoxHoundUI.MENU_SAVE:
-                    System.out.println("Provide a path that you wanna save: ");
-                    String aName = STDIN_SCAN.nextLine();
-                    Path name = Paths.get(aName);
+                    Path name = FoxHoundUI.fileQuery(STDIN_SCAN);
                     if (!FoxHoundIO.saveGame(players,turn,name)) {
                         System.err.println("ERROR: Saving file failed.");
                         continue;
                     }
                     break;
                 case FoxHoundUI.MENU_LOAD:
-                    // "ERROR: Loading from file failed."
-                    System.out.println("Give a path that you wanna load:");
-                    String loadName = STDIN_SCAN.nextLine();
-                    Path name1 = Paths.get(loadName);
-                    turn = FoxHoundIO.loadGame(players,name1);
+                    Path name1 = FoxHoundUI.fileQuery(STDIN_SCAN);
+                    char pointer = FoxHoundIO.loadGame(players,name1);
                     System.out.println(players.length);
-                    if (turn == '#') {
+                    if (pointer == '#') {
                         System.err.println("ERROR: Loading from file failed.");
                         continue;
                     }

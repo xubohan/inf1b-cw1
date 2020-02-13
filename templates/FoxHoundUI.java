@@ -1,3 +1,5 @@
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Scanner;
 import java.util.Objects;
 
@@ -180,10 +182,6 @@ public class FoxHoundUI {
         }
         String row0 = temp[0].substring(1);
         String row1 = temp[1].substring(1);
-//        if (temp[0].length() == 1 ||
-//                temp[1].length() == 1) {
-//            return false;
-//        }
         if (!Character.isUpperCase(temp[0].charAt(0))) {
             return false;
         }
@@ -224,6 +222,12 @@ public class FoxHoundUI {
         return temp;
     }
 
+    public static Path fileQuery(Scanner stdin) {
+        System.out.println("Enter file path:");
+        String aName = stdin.nextLine();
+        Path name = Paths.get(aName);
+        return name;
+    }
 }
 
 
